@@ -1,6 +1,7 @@
 name: Build LibreLens (stable)
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
